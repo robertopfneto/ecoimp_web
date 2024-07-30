@@ -1,0 +1,148 @@
+/* HEADER */
+header{
+    background-color: rgb(241, 241, 241);
+}
+
+header nav .tchau a{
+    font-family:'Nunito', sans-serif ;
+    letter-spacing: 1px;
+    opacity: 85%;
+}
+
+header nav .tchau a:hover{
+    opacity: 100%;
+    transition: 0.16s;
+}
+
+header .oi a{
+    letter-spacing: 25px;
+    font-family:'Nunito', sans-serif ;
+}
+
+/* INICIO */
+.inicio{
+    background-color: rgb(241, 241, 241);
+}
+
+.inicio p{
+    text-overflow: ellipsis;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 2px;
+}
+
+.inicio img{
+    opacity: 95%;
+}
+
+.inicio img:hover{
+    transition: 0.2s;
+    opacity: 100%;
+}
+
+/* SOBRE NÓS */
+.sobre{
+    background-color: rgb(241, 241, 241);
+}
+
+.sobre .projeto .txt{
+    background-color: rgba(255, 255, 255, 0.432);
+    transition: 1.1s;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.sobre .projeto h1{
+    font-family:  'Lora', serif;;
+    letter-spacing: 2px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.sobre .projeto img{
+    height: 350px;
+    width: 360px;
+    transition: 0.6s;
+}
+
+.sobre .projeto img:hover{
+    opacity: 80%;
+}
+
+.sobre .topicos{
+    background-color: rgb(64, 167, 152);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.sobre .grupo ul{
+    list-style: none;
+}
+
+.sobre .grupo li {
+    background-color: rgba(255, 255, 255, 0.432);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 1.5px;
+    transition: 0.6;
+}
+
+.sobre .grupo li:hover{
+    font-size: large;
+}
+
+/* CADASTRO */
+.login .all{
+    background-color: rgba(255, 255, 255, 0.432);
+    border-radius: 15px;
+}
+
+.login {
+    background-color: rgb(241, 241, 241);
+}
+
+.login .cadastro{
+    width: 400px;
+    background-color: rgb(64, 167, 152);
+}
+
+.login .cadastro h4{
+    letter-spacing: 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+.login .cadastro input{
+    background-color: black(252, 252, 252, 0.39);
+    font-family: 'Inter', sans-serif;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.123);
+}
+
+.login .cadastro{
+    background-color: rgb(64, 167, 152);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.login .cadastro button {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.200);
+    background-color: rgba(255, 255, 255, 0.432);
+    transition: 0.2s;
+    border-style: none;
+}
+
+/*FOOTER*/
+footer{
+    background-color: rgb(64, 167, 152);
+}
+
+footer .text{
+    font-family:'Nunito', sans-serif;
+}
+
+footer img{
+    transition: 0.3s;
+    opacity: 100%;
+}
+
+footer img:hover{
+    opacity: 80%;
+}
